@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "writing_robot_controller",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "writing_robot_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-writing_robot_controller-Debug-676a4a79f1f4aa918f8b.json",
+					"name" : "writing_robot_controller",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/reiky/OneDrive/\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8/\u4f5c\u4e1a/2025\u5e74\u5199\u5b57\u673a\u5668\u4eba/\u4ee3\u7801/writing_robot_controller/build/debug",
+		"source" : "C:/Users/reiky/OneDrive/\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8/\u4f5c\u4e1a/2025\u5e74\u5199\u5b57\u673a\u5668\u4eba/\u4ee3\u7801/writing_robot_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
