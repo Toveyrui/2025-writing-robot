@@ -1,3 +1,0 @@
-C:/Users/reiky/OneDrive/ドキュメント/作业/2025年写字机器人/代码/writing_robot_controller/build/debug/CMakeFiles/writing_robot_controller.dir
-C:/Users/reiky/OneDrive/ドキュメント/作业/2025年写字机器人/代码/writing_robot_controller/build/debug/CMakeFiles/edit_cache.dir
-C:/Users/reiky/OneDrive/ドキュメント/作业/2025年写字机器人/代码/writing_robot_controller/build/debug/CMakeFiles/rebuild_cache.dir
