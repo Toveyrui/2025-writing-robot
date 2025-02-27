@@ -10,3 +10,6 @@ install_manifest.txt
 CTestTestfile.cmake
 CompilationDatabase.json
 build
+
+# 忽略 VSCode 生成的 json 文件（如果不需要跟踪）
+.vscode/*.json
