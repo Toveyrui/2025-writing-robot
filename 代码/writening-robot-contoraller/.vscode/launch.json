@@ -6,29 +6,29 @@
     "configurations": [
 
         
-        {
+        // {
         
-            "cwd": "${workspaceFolder}",
-            "executable": "${command:STM32VSCodeExtension.bootFlashBootTarget}",
-            "name": "Debug Boot Project with ST-Link",
-            "device": "STM32F107C8T6", //MCU used
-            "svdFile": "${config:STM32VSCodeExtension.cubeCLT.path}/STMicroelectronics_CMSIS_SVD/STM32H7S.svd",
-            "serverpath": "${config:STM32VSCodeExtension.cubeCLT.path}/STLink-gdb-server/bin/ST-LINK_gdbserver",
-            "stm32cubeprogrammer":"${config:STM32VSCodeExtension.cubeCLT.path}/STM32CubeProgrammer/bin",
-            "stlinkPath": "${config:STM32VSCodeExtension.cubeCLT.path}/STLink-gdb-server/bin/ST-LINK_gdbserver",   
-            "armToolchainPath": "${config:STM32VSCodeExtension.cubeCLT.path}/GNU-tools-for-STM32/bin",
-            "gdbPath":"${config:STM32VSCodeExtension.cubeCLT.path}/GNU-tools-for-STM32/bin/arm-none-eabi-gdb",
-            "v1": false,               //Change it depending on ST Link version
-            "serverArgs": [
-                "-m","1",
-            ],
-            "request": "launch",
-            "type": "cortex-debug",
-            "runToEntryPoint": "main",
-            "showDevDebugOutput": "none",
-            "servertype": "stlink"
+        //     "cwd": "${workspaceFolder}",
+        //     "executable": "${command:STM32VSCodeExtension.bootFlashBootTarget}",
+        //     "name": "Debug Boot Project with ST-Link",
+        //     "device": "STM32F107C8T6", //MCU used
+        //     "svdFile": "${config:STM32VSCodeExtension.cubeCLT.path}/STMicroelectronics_CMSIS_SVD/STM32H7S.svd",
+        //     "serverpath": "${config:STM32VSCodeExtension.cubeCLT.path}/STLink-gdb-server/bin/ST-LINK_gdbserver",
+        //     "stm32cubeprogrammer":"${config:STM32VSCodeExtension.cubeCLT.path}/STM32CubeProgrammer/bin",
+        //     "stlinkPath": "${config:STM32VSCodeExtension.cubeCLT.path}/STLink-gdb-server/bin/ST-LINK_gdbserver",   
+        //     "armToolchainPath": "${config:STM32VSCodeExtension.cubeCLT.path}/GNU-tools-for-STM32/bin",
+        //     "gdbPath":"${config:STM32VSCodeExtension.cubeCLT.path}/GNU-tools-for-STM32/bin/arm-none-eabi-gdb",
+        //     "v2": false,               //Change it depending on ST Link version
+        //     "serverArgs": [
+        //         "-m","1",
+        //     ],
+        //     "request": "launch",
+        //     "type": "cortex-debug",
+        //     "runToEntryPoint": "main",
+        //     "showDevDebugOutput": "none",
+        //     "servertype": "stlink"
     
-        },
+        // },
 
         {
             "name": "Build & Debug Microcontroller - ST-Link",
